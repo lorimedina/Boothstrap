@@ -1,0 +1,152 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+  h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+  }
+  p{
+    color: #8f8f8f;
+  }
+
+  .big-heading{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  .section-heading{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+ 
+  .container-fluid{
+    padding: 7% 14%;
+  }
+  
+
+  .colored-section{
+    background-color: #f50025;
+    color: white;
+  }
+  
+  .white-section{
+    background-color: white;
+  }
+  
+
+  .navbar{
+    padding: 0 0 4.5rem;
+  }
+  .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .nav-item{
+    padding: 0 18px;
+  }
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+  #nvhead{
+    color: white;
+  }
+ 
+  #title{
+    text-align: left;
+  }
+  #title .container-fluid{
+    padding: 3% 15% 7%;
+  }
+  .title-img{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    right: 10%;
+  }
+  
+
+  .download-button{
+    margin: 5% 3% 5% 0;
+  }
+  .fab{
+    margin-right: 8px;
+  }
+  
+
+  #features{
+    position: relative;
+  }
+  .feature-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .features-col{
+    padding: 5%;
+  }
+  
+  .feature-icon{
+    color: #f50025;
+    margin: 1rem;
+  }
+  
+  .feature-icon:hover{
+    color: #1100f8;
+  }
+  
+
+  #testimonials{
+    background-color: #e49e9e;
+  }
+  .testimonial-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  .testimonial-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  #press{
+    background-color: white;
+    padding: 3%;
+  }
+  .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+ 
+  #pricing{
+    padding: 100px;
+  }
+  .price-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  .pricing-col{
+    padding: 3% 2%;
+  }
+  
+
+  .foot-icon{
+    padding: 20px 10px;
+  }
+  
+  @media (max-width: 1020px){
+    #title{
+      text-align: center;
+    }
+  
+    .title-img{
+      transform: rotate(0);
+      position: static;
+    }
+  }
+  
